@@ -1,0 +1,12 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 70px);
+    &__wrapper {
+        display: flex;
+        flex-direction: column; 
+    }
+    &__list {
+        list-style: none;
+    }
+}

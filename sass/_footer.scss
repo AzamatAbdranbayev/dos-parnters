@@ -1,0 +1,22 @@
+.footer {
+    background: #2C2B28;
+    color:white;
+    padding: 20px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        flex-basis: 60%;
+        list-style: none;
+        columns: 3;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+    &__links {
+        text-decoration: none;
+    }
+    &__links >li{
+        margin: 15px 0;
+    }
+}
